@@ -11,6 +11,7 @@ cd ~
 ./install-googletest.sh
 ./install-tbb.sh
 ./install-other-tbb.sh
+./install-libtool.sh
 ./install-logifix.sh
 ./install-logiemm.sh
 ./install-smart-order-router.sh

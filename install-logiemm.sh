@@ -8,6 +8,6 @@ mv CMakeScripts/ cmake/
 mkdir build
 cd build/
 cmake ..
-make -j3
+make -j${nproc}
 cd bin/
 cp logi_emm_mock_server ../../fix/

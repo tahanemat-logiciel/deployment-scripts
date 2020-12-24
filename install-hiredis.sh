@@ -3,7 +3,7 @@
 cd ~
 git clone https://github.com/redis/hiredis.git
 cd hiredis/
-make -j3
+make -j${nproc}
 sudo make install
 sudo mkdir /usr/include/hiredis
 sudo cp libhiredis.so /usr/lib/

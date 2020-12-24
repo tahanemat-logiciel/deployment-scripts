@@ -7,6 +7,6 @@ cd range-v3-0.10.0/
 mkdir build
 cd build/
 cmake ..
-make -j3
+make -j${nproc}
 make test
 sudo make install

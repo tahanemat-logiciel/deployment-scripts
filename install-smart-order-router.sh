@@ -8,6 +8,6 @@ git submodule update
 mkdir build
 cd build/
 cmake ..
-make -j3
+make -j${nproc}
 cd ..
 cp config/ -r build/bin.debug/

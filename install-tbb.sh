@@ -6,5 +6,5 @@ cd oneTBB/
 mkdir build
 cd build/
 cmake ..
-make -j3
+make -j${nproc}
 sudo make install
