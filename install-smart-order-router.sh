@@ -10,4 +10,4 @@ cd build/
 cmake ..
 make -j${nproc}
 cd ..
-cp config/ -r build/bin.debug/
+cp config/ -r build/bin.debug/config/
