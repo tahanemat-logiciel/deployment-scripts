@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo yum -y install epel-relese
+sudo yum -y install epel-release
 sudo yum -y install libuuid-devel 
 sudo yum -y install cmake 
 sudo yum -y install boost-devel 
