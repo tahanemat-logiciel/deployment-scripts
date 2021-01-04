@@ -14,4 +14,6 @@ cd ~
 ./install-libtool.sh
 ./install-logifix.sh
 ./install-logiemm.sh
+./install-cereal.sh
+./install-redis-store.sh
 ./install-smart-order-router.sh
