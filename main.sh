@@ -3,7 +3,6 @@
 cd ~
 ./install-system-wide.sh
 ./install-poco.sh
-./install-flatbuffers.sh
 ./install-libzmq.sh
 ./install-cppzmq.sh
 ./install-g3log.sh
@@ -17,3 +16,7 @@ cd ~
 ./install-cereal.sh
 ./install-redis-store.sh
 ./install-smart-order-router.sh
+./install-buffers.sh
+./install-libFlexMessage.sh
+./install-pubsub.sh
+./install-protobuf.sh
