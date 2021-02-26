@@ -6,5 +6,5 @@ cd g3log/
 mkdir build
 cd build/
 cmake .. -DG#_SHARED_LIB=OFF -DCMAKE_POSITION_INDEPENDENT_CODE=ON
-make -j${nproc}
+make -j$(nproc)
 sudo make install

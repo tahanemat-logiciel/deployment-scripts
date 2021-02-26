@@ -7,5 +7,5 @@ cd googletest-release-1.10.0/
 mkdir mybuild
 cd mybuild/
 cmake ..
-make -j${nproc}
+make -j$(nproc)
 sudo make install
