@@ -15,6 +15,7 @@ cd ~
 ./install-logiemm.sh
 ./install-cereal.sh
 ./install-redis-store.sh
+./install-liblogger.sh
 ./install-smart-order-router.sh
 ./install-buffers.sh
 ./install-libFlexMessage.sh
