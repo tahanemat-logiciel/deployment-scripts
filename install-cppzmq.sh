@@ -6,5 +6,5 @@ cd cppzmq/
 mkdir build
 cd build/
 cmake ..
-make -j${nproc}
+make -j$(nproc)
 sudo make install
